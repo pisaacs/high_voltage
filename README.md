@@ -166,15 +166,6 @@ HighVoltage.configure do |config|
 end
 ```
 
-#### Caching
-
-Caching has been deprecated and will be removed in the next release.
-
-Page caching and action caching can be done via Rails. Visit the [Caching with
-Rails: An overview](http://guides.rubyonrails.org/caching_with_rails.html) guide
-for more details. You can utilize the methods described there by overriding the
-HighVoltage controller as described [below](#override).
-
 ## Override
 
 Most common reasons to override?
